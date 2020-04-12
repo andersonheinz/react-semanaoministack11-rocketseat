@@ -19,7 +19,7 @@
 ## Pré-requisitos:
  - Ter o ambiente preparado com nodejs, node, npm, yarn.
  - Git instalado para clonar o projeto.
- - Instalar o expo na máquina e no celular.
+ - Instalar o expo na máquina e no dispositivo móvel.
 
 ### Instalação Expo
 Ubuntu:
@@ -103,8 +103,7 @@ Irá abrir no navegador a página do expo.
 Abrir o app do Expo instalado no dispositivo móvel, escanear o QR Code do navegador, e estará pronto para uso.
 
 
-Caso apareca "could not load... timeout" será necessario desabilitar o firewall.
-
+Se o app não carregar e aparecer "could not load... timeout" será necessario desabilitar o firewall, e executar novamente o expo start e escanear o QR Code.
 ```sh
 $ sudo ufw disable
 ```
