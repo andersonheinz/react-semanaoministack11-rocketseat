@@ -13,7 +13,7 @@ export default function Detail() {
   const route = useRoute();
 
   const incident = route.params.incident;
-  const message = `Ola ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.title}" com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(incident.value)}`
+  const message = `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso "${incident.title}" com o valor de ${Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(incident.value)}`
 
   function navigateBack() {
     navigation.goBack()
@@ -21,7 +21,7 @@ export default function Detail() {
 
   function sendMail() {
     MailComposer.composeAsync({
-      subject: `Heroi do caso: ${incident.title}`,
+      subject: `Herói do caso: ${incident.title}`,
       recipients: [incident.email],
       body: message
     })
