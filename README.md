@@ -29,11 +29,10 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#octocat-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-web-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#anger-pre-requisitos">Pré Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#wrench-instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#anger-pr%C3%A9-requisitos">Pré Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-instala%C3%A7%C3%A3o">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
-
 
 
 ## 🚀 Tecnologias
@@ -107,9 +106,8 @@ Caso ocorra algum problema, para instalar manualmente é necessário fazer o clo
 - frontend
 - mobile
 
-### Executar aplicações
+### Executar aplicações Backend e Frontend
 
-### Backend e Frontend
 - Abrir terminal na pasta backend e executar `npm start`
 - Abrir nova aba no terminal na pasta frontend e executar `npm start`
 
@@ -128,7 +126,7 @@ http://localhost:3333/ongs
 Página index da aplicação web
 http://localhost:3000/
 
-### Mobile
+### Executar aplicação Mobile
 - Alterar o IP da baseURL no arquivo react-semanaoministack11-rocketseat/mobile/src/services/api.js
 
 ```sh
