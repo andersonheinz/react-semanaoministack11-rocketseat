@@ -1,22 +1,67 @@
-![](/img/react-native.png)
-<img src="img/1280px-Node.js_logo.svg.png" height="'160" width="300">
 
 
-# Be The Hero
+<h1 align="center">
+<img alt="Be The Hero" src="frontend/src/assets/logo.svg" height="'130" width="200px">
+</h1>
 
-### Projeto Be The Hero desenvolvido na semana OminiStack 11 - Rocketseat
 
-- Painel web para cadastro das instituições e dos casos.
+<h4 align="center">
+  🚀 Semana OmniStack 11.0
+</h4>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/andersonheinz/react-semanaoministack11-rocketseat">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/andersonheinz/react-semanaoministack11-rocketseat">
+  
+  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andersonheinz/react-semanaoministack11-rocketseat">
+  </a>
+
+  <a href="https://rocketseat.com.br">
+    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-red">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#octocat-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-web-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#anger-pre-requisitos">Pré Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+
+
+## :octocat: Projeto
+Be the Hero é um projeto que visa ajudar instituições sem fins lucrativos, o cadastro das instituições é feito na web, através do app as pessoas podem entrar em contato para fazerem doações e ajudar em determinada causa!
+
+## 💻 Web Demo
 
 ![](/img/index.png)
 
 ![](/img/incidents.png)
 
-- App mobile para acessar os casos e entrar em contato com as instituições.
+## 📱 App Demo
+
+App mobile para acessar os casos e entrar em contato com as instituições.
 
 ![](/img/app.jpg)
 
-## Pré-requisitos:
+## :anger: Pré-requisitos:
  - Ter o ambiente preparado com nodejs, node, npm, yarn.
  - Git instalado para clonar o projeto.
  - Instalar o expo na máquina e no dispositivo móvel.
@@ -50,7 +95,7 @@ $ expo --version
 3.17.23
 ```
 
-## Instalação 
+## :wrench: Instalação 
 Executar o npm install para instalar as dependencias do package.json, criando a pasta node_modules.
 
 O comando abaixo clona o projeto e faz a instalação.
@@ -62,7 +107,7 @@ Caso ocorra algum problema, para instalar manualmente é necessário fazer o clo
 - frontend
 - mobile
 
-## Executar aplicações
+### Executar aplicações
 
 ### Backend e Frontend
 - Abrir terminal na pasta backend e executar `npm start`
@@ -107,3 +152,8 @@ Se o app não carregar e aparecer "could not load... timeout" será necessario d
 ```sh
 $ sudo ufw disable
 ```
+<br>
+
+### :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
