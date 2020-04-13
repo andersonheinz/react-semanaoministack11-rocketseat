@@ -144,6 +144,15 @@ Irá abrir no navegador a página do expo.
 
 Abrir o app do Expo instalado no dispositivo móvel, escanear o QR Code do navegador, e estará pronto para uso.
 
+Caso apareça o erro no terminal referente o watchamn max_user_watches execute o comando:
+```sh
+$ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+```
+> Error: Watchman error: A non-recoverable condition has triggered.  Watchman needs your help!
+>The triggering condition was at timestamp=1586779636: inotify-add-watch(/home/heinz/Projetos/react-semanaoministack11->rocketseat/backend/node_modules/expect/node_modules/ansi-styles) -> The user limit on the total number of inotify watches >was reached; increase the fs.inotify.max_user_watches sysctl
+>All requests will continue to fail with this message until you resolve
+>the underlying problem.  You will find more information on fixing this at
+>https://facebook.github.io/watchman/docs/troubleshooting.html#poison-inotify-add-watch. Make sure watchman is running for >this project. See https://facebook.github.io/watchman/docs/troubleshooting.html.
 
 Se o app não carregar e aparecer "could not load... timeout" será necessario desabilitar o firewall, e executar novamente o expo start e escanear o QR Code.
 ```sh
