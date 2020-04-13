@@ -14,7 +14,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/andersonheinz/react-semanaoministack11-rocketseat">
   
-  <a href="https://github.com/Rocketseat/semana-omnistack-10/commits/master">
+  <a href="https://github.com/andersonheinz/react-semanaoministack11-rocketseat/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/andersonheinz/react-semanaoministack11-rocketseat">
   </a>
 
