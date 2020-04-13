@@ -65,16 +65,6 @@ App mobile para acessar os casos e entrar em contato com as instituições.
  - Git instalado para clonar o projeto.
  - Instalar o expo na máquina e no dispositivo móvel.
 
-### Instalação Expo
-Ubuntu:
- ```sh
-$ npm install -g expo-cli
-```
-Instalar o expo no dispositivo móvel:
-
-- [Expo Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
-
-
 ### Verificar instalação/ versões utilizadas
 Verificar se os requisitos estão instalados, não é necessário utilizar as versões especificadas abaixo, porém no momento que foi criado esse projeto, essas são as versões do ambiente:
 ```sh
@@ -95,16 +85,25 @@ $ expo --version
 ```
 
 ## :wrench: Instalação 
+
+### Instalação Expo
+Ubuntu:
+ ```sh
+$ npm install -g expo-cli
+```
+Instalar o expo no dispositivo móvel:
+
+- [Expo Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR)
+
+<br>
+
 Executar o npm install para instalar as dependencias do package.json, criando a pasta node_modules.
 
 O comando abaixo clona o projeto e faz a instalação.
 ```sh
 git clone https://github.com/andersonheinz/react-semanaoministack11-rocketseat && cd react-semanaoministack11-rocketseat/backend && npm i && cd ../frontend && npm i && cd ../mobile && npm i
 ```
-Caso ocorra algum problema, para instalar manualmente é necessário fazer o clone do projeto e dentro das seguintes pastas executar `npm install` :
-- backend
-- frontend
-- mobile
+Caso ocorra algum problema, para instalar manualmente é necessário fazer o clone do projeto e dentro das pastas backend, frontend e mobile, executar `npm install` para instalar as dependencias do package.json, criando a pasta node_modules.
 
 ### Executar aplicações Backend e Frontend
 
@@ -150,7 +149,6 @@ Se o app não carregar e aparecer "could not load... timeout" será necessario d
 ```sh
 $ sudo ufw disable
 ```
-<br>
 
 ### :memo: Licença
 
