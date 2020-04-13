@@ -1,0 +1,14 @@
+// Install REST Client - VSCode
+// Ctrl + ALt + R
+
+GET http://localhost:3333/ongs HTTP/1.1
+
+###
+
+GET http://localhost:3333/incidents HTTP/1.1
+
+###
+
+GET http://localhost:3333/profile HTTP/1.1
+Content-Type: application/xml
+Authorization: f5cd61d8
